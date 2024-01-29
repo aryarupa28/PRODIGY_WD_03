@@ -1,5 +1,5 @@
 * {
-    color: #2C3E50; /* Midnight Blue */
+    color: #2C3E50; 
 }
 
 .align {
@@ -7,9 +7,15 @@
     justify-content: center;
     align-items: center;
 }
+.header {
+    background-color: #3498DB; 
+    color: #fff; 
+    padding: 15px;
+    font-size: 2rem; 
+}
 
 body {
-    background-color: #E5E4E2; /* Platinum */
+    background-color: #E5E4E2;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -18,6 +24,7 @@ body {
 }
 
 .turn-container {
+    margin-top:50px !important;
     width: 170px;
     height: 80px;
     margin: auto;
@@ -49,7 +56,7 @@ body {
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #7F8C8D; /* Silver Sand */
+    background-color: #7F8C8D; 
     z-index: -1;
 }
 
@@ -60,25 +67,25 @@ body {
     height: 250px;
     width: 250px;
     margin: 30px auto;
-    border: 2px solid #34495E; /* Wet Asphalt */
+    border: 2px solid #34495E; 
 }
 
 .box {
     cursor: pointer;
     font-size: 2rem;
     font-weight: 700;
-    border: 2px solid #34495E; /* Wet Asphalt */
+    border: 2px solid #34495E; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box:hover {
-    background-color: #7F8C8D; /* Silver Sand */
+    background-color: #7F8C8D; 
 }
 
 #play-again {
-    background-color: #7F8C8D; /* Silver Sand */
+    background-color: #7F8C8D; 
     padding: 10px 25px;
     border: none;
     font-size: 1.2rem;
@@ -89,6 +96,6 @@ body {
 
 #play-again:hover {
     padding: 10px 20px;
-    background-color: #27AE60; /* Nephritis */
+    background-color: #27AE60; 
     color: white;
 }
